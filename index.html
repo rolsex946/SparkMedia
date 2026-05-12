@@ -1,0 +1,2491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SparkMediaX — Digital Marketing Agency for Doctors</title>
+    <meta name="description"
+        content="SparkMediaX is a premium digital marketing agency exclusively for doctors and healthcare professionals. We build websites, manage social media, and grow your patient base.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">
+                <span class="preloader-spark">Spark</span><span class="preloader-media">MediaX</span>
+            </div>
+            <div class="preloader-bar">
+                <div class="preloader-bar-fill"></div>
+            </div>
+            <p class="preloader-text">Loading premium experience...</p>
+        </div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Cursor Follower -->
+    <div id="cursor-follower">
+        <div class="cursor-dot"></div>
+        <div class="cursor-ring"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="main-nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo" data-route="home">
+                <span class="logo-spark">Spark</span><span class="logo-media">MediaX</span>
+            </a>
+            <div class="nav-links" id="nav-links">
+                <a href="#home" class="nav-link active" data-route="home">Home</a>
+                <a href="#about" class="nav-link" data-route="about">About</a>
+                <div class="nav-dropdown">
+                    <a href="#services" class="nav-link" data-route="services">Services <i
+                            class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="#web-development" class="dropdown-link" data-route="web-development">Website
+                            Development</a>
+                        <a href="#digital-card" class="dropdown-link" data-route="digital-card">Digital Business
+                            Card</a>
+                        <a href="#social-media" class="dropdown-link" data-route="social-media">Social Media
+                            Branding</a>
+                        <a href="#growth-system" class="dropdown-link" data-route="growth-system">Growth System</a>
+                    </div>
+                </div>
+                <a href="#process" class="nav-link" data-route="process">Process</a>
+                <a href="#packages" class="nav-link" data-route="packages">Packages</a>
+                <a href="#contact" class="nav-link" data-route="contact">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="nav-cta-btn" onclick="router.navigate('contact')">
+                    <span>Book Demo</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+                <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="mobile-menu">
+        <div class="mobile-menu-header">
+            <span class="logo-spark">Spark</span><span class="logo-media">MediaX</span>
+            <button class="mobile-close" id="mobile-close" aria-label="Close menu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="mobile-menu-links">
+            <a href="#home" class="mobile-link" data-route="home">Home</a>
+            <a href="#about" class="mobile-link" data-route="about">About Us</a>
+            <a href="#services" class="mobile-link" data-route="services">Services</a>
+            <a href="#web-development" class="mobile-link sub-link" data-route="web-development">— Website
+                Development</a>
+            <a href="#digital-card" class="mobile-link sub-link" data-route="digital-card">— Digital Business Card</a>
+            <a href="#social-media" class="mobile-link sub-link" data-route="social-media">— Social Media Branding</a>
+            <a href="#growth-system" class="mobile-link sub-link" data-route="growth-system">— Growth System</a>
+            <a href="#patient-journey" class="mobile-link" data-route="patient-journey">Patient Journey</a>
+            <a href="#problem" class="mobile-link" data-route="problem">The Problem</a>
+            <a href="#digital-presence" class="mobile-link" data-route="digital-presence">Digital Presence</a>
+            <a href="#solutions" class="mobile-link" data-route="solutions">Solutions</a>
+            <a href="#web-benefits" class="mobile-link" data-route="web-benefits">Website Benefits</a>
+            <a href="#why-us" class="mobile-link" data-route="why-us">Why Choose Us</a>
+            <a href="#process" class="mobile-link" data-route="process">Our Process</a>
+            <a href="#packages" class="mobile-link" data-route="packages">Packages</a>
+            <a href="#contact" class="mobile-link" data-route="contact">Contact</a>
+        </div>
+        <div class="mobile-menu-footer">
+            <div class="mobile-social">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+            </div>
+            <p class="mobile-copyright">&copy; 2025 SparkMediaX. All rights reserved.</p>
+        </div>
+    </div>
+
+    <!-- Main App Container -->
+    <main id="app">
+
+        <!-- ==================== PAGE: HOME ==================== -->
+        <section id="home" class="page-section active">
+            <!-- Hero Section -->
+            <div class="hero">
+                <div class="hero-bg-elements">
+                    <div class="hero-float-icon hero-float-1"><i class="fas fa-stethoscope"></i></div>
+                    <div class="hero-float-icon hero-float-2"><i class="fas fa-heartbeat"></i></div>
+                    <div class="hero-float-icon hero-float-3"><i class="fas fa-laptop-medical"></i></div>
+                    <div class="hero-float-icon hero-float-4"><i class="fas fa-mobile-alt"></i></div>
+                    <div class="hero-float-icon hero-float-5"><i class="fas fa-chart-line"></i></div>
+                    <div class="hero-float-icon hero-float-6"><i class="fas fa-qrcode"></i></div>
+                    <div class="hero-gradient-orb hero-orb-1"></div>
+                    <div class="hero-gradient-orb hero-orb-2"></div>
+                    <div class="hero-grid-pattern"></div>
+                </div>
+                <div class="container hero-container">
+                    <div class="hero-content">
+                        <div class="hero-badge reveal">
+                            <span class="badge-dot"></span>
+                            <span>India's Trusted Digital Agency for Doctors</span>
+                        </div>
+                        <h1 class="hero-title reveal">
+                            <span class="title-line">Igniting Brands</span>
+                            <span class="title-line title-gradient">Through Design,</span>
+                            <span class="title-line">Strategy & <span class="title-highlight">Technology</span></span>
+                        </h1>
+                        <p class="hero-desc reveal">
+                            We help doctors and healthcare professionals build a powerful digital presence
+                            that attracts patients, builds trust, and grows practice — all with a
+                            premium, conversion-focused approach.
+                        </p>
+                        <div class="hero-actions reveal">
+                            <button class="btn btn-primary btn-magnetic" onclick="router.navigate('contact')">
+                                <span>Book Free Demo</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                            <button class="btn btn-ghost" onclick="router.navigate('services')">
+                                <span>Explore Services</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                        <div class="hero-stats reveal">
+                            <div class="hero-stat">
+                                <span class="stat-number" data-target="150">0</span><span class="stat-suffix">+</span>
+                                <span class="stat-label">Doctors Served</span>
+                            </div>
+                            <div class="hero-stat-divider"></div>
+                            <div class="hero-stat">
+                                <span class="stat-number" data-target="98">0</span><span class="stat-suffix">%</span>
+                                <span class="stat-label">Client Retention</span>
+                            </div>
+                            <div class="hero-stat-divider"></div>
+                            <div class="hero-stat">
+                                <span class="stat-number" data-target="3">0</span><span class="stat-suffix">x</span>
+                                <span class="stat-label">Patient Growth</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-visual reveal">
+                        <div class="hero-mockup">
+                            <div class="mockup-browser">
+                                <div class="mockup-dots">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="mockup-url">
+                                    <i class="fas fa-lock"></i>
+                                    <span>www.drhakamsingh.com</span>
+                                </div>
+                                <div class="mockup-content">
+                                    <div class="mockup-nav-bar">
+                                        <span class="mockup-logo-text">Dr. Hakam Singh</span>
+                                        <div class="mockup-nav-links">
+                                            <span></span><span></span><span></span>
+                                        </div>
+                                    </div>
+                                    <div class="mockup-hero-section">
+                                        <div class="mockup-hero-text">
+                                            <div class="mockup-line mockup-line-lg"></div>
+                                            <div class="mockup-line mockup-line-md"></div>
+                                            <div class="mockup-line mockup-line-sm"></div>
+                                            <div class="mockup-btn-fake"></div>
+                                        </div>
+                                        <div class="mockup-hero-image">
+                                            <i class="fas fa-user-md"></i>
+                                        </div>
+                                    </div>
+                                    <div class="mockup-cards-row">
+                                        <div class="mockup-mini-card"></div>
+                                        <div class="mockup-mini-card"></div>
+                                        <div class="mockup-mini-card"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero-float-card float-card-1">
+                                <i class="fas fa-calendar-check"></i>
+                                <span>Appointment Booked</span>
+                            </div>
+                            <div class="hero-float-card float-card-2">
+                                <i class="fas fa-star"></i>
+                                <span>5.0 Rating</span>
+                            </div>
+                            <div class="hero-float-card float-card-3">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>+240% Traffic</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-scroll-indicator">
+                    <span>Scroll to explore</span>
+                    <div class="scroll-mouse">
+                        <div class="scroll-wheel"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Introduction Section -->
+            <div class="section intro-section">
+                <div class="container">
+                    <div class="section-header reveal">
+                        <span class="section-tag">Who We Are</span>
+                        <h2 class="section-title">Your Digital Growth <span class="text-gradient">Partner in
+                                Healthcare</span></h2>
+                        <p class="section-subtitle">SparkMediaX is not just another digital agency. We are a specialist
+                            team that understands the unique needs of medical professionals and delivers results that
+                            matter.</p>
+                    </div>
+                    <div class="intro-grid">
+                        <div class="intro-card reveal" data-delay="0">
+                            <div class="intro-card-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h3>Website Development</h3>
+                            <p>Custom, responsive doctor websites with appointment booking, patient testimonials, and
+                                SEO optimization built in from day one.</p>
+                            <a href="#web-development" class="card-link" data-route="web-development">
+                                Learn more <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="intro-card reveal" data-delay="100">
+                            <div class="intro-card-icon">
+                                <i class="fas fa-share-alt"></i>
+                            </div>
+                            <h3>Social Media Management</h3>
+                            <p>Strategic social media content that positions you as a thought leader, educates patients,
+                                and builds a loyal community online.</p>
+                            <a href="#social-media" class="card-link" data-route="social-media">
+                                Learn more <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="intro-card reveal" data-delay="200">
+                            <div class="intro-card-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h3>Digital Business Card</h3>
+                            <p>Smart QR-based digital visiting cards with one-tap calling, WhatsApp integration, and
+                                real-time contact sharing.</p>
+                            <a href="#digital-card" class="card-link" data-route="digital-card">
+                                Learn more <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="intro-card reveal" data-delay="300">
+                            <div class="intro-card-icon">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <h3>Growth & Analytics</h3>
+                            <p>Data-driven marketing strategies with transparent reporting, Google profile optimization,
+                                and patient conversion tracking.</p>
+                            <a href="#growth-system" class="card-link" data-route="growth-system">
+                                Learn more <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trust Strip -->
+            <div class="trust-strip reveal">
+                <div class="container">
+                    <div class="trust-strip-inner">
+                        <div class="trust-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>HIPAA Compliant</span>
+                        </div>
+                        <div class="trust-item">
+                            <i class="fas fa-bolt"></i>
+                            <span>7-Day Delivery</span>
+                        </div>
+                        <div class="trust-item">
+                            <i class="fas fa-headset"></i>
+                            <span>Dedicated Support</span>
+                        </div>
+                        <div class="trust-item">
+                            <i class="fas fa-redo"></i>
+                            <span>Unlimited Revisions</span>
+                        </div>
+                        <div class="trust-item">
+                            <i class="fas fa-hand-holding-usd"></i>
+                            <span>Affordable Pricing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Home CTA -->
+            <div class="section home-cta-section">
+                <div class="container">
+                    <div class="home-cta-box reveal">
+                        <div class="cta-bg-pattern"></div>
+                        <div class="cta-content">
+                            <h2>Ready to Transform Your <span class="text-gradient">Digital Presence?</span></h2>
+                            <p>Join 150+ doctors who have already elevated their practice with SparkMediaX.</p>
+                            <button class="btn btn-white btn-magnetic" onclick="router.navigate('contact')">
+                                <span>Get Started Today</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: ABOUT ==================== -->
+        <section id="about" class="page-section">
+            <div class="page-hero page-hero-sm">
+                <div class="container">
+                    <span class="page-badge reveal">About Us</span>
+                    <h1 class="page-title reveal">The Story Behind <span class="text-gradient">SparkMediaX</span></h1>
+                    <p class="page-subtitle reveal">We saw a gap — doctors who save lives every day were struggling to
+                        be found online. We built SparkMediaX to change that.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="about-story-grid">
+                        <div class="about-story-content reveal">
+                            <span class="section-tag">Our Mission</span>
+                            <h2>Empowering Doctors with <span class="text-gradient">Digital Excellence</span></h2>
+                            <p>Healthcare in India is evolving rapidly. Patients now search for doctors online, read
+                                reviews, check websites, and book appointments digitally. Yet, most doctors lack the
+                                time and expertise to build a strong online presence.</p>
+                            <p>SparkMediaX was founded with a single mission: to give every doctor — from solo
+                                practitioners to multi-specialty hospitals — access to world-class digital marketing
+                                that actually works.</p>
+                            <p>We don't just build websites. We build patient acquisition systems. We don't just post on
+                                social media. We build authority. We don't just optimize Google profiles. We dominate
+                                local search.</p>
+                            <div class="about-highlights">
+                                <div class="about-highlight-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Healthcare-focused expertise</span>
+                                </div>
+                                <div class="about-highlight-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>No generic templates — custom design</span>
+                                </div>
+                                <div class="about-highlight-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Results-driven, not just deliverables</span>
+                                </div>
+                                <div class="about-highlight-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Transparent communication always</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-story-visual reveal">
+                            <div class="about-image-grid">
+                                <div class="about-img-card about-img-1">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <span>Innovation</span>
+                                </div>
+                                <div class="about-img-card about-img-2">
+                                    <i class="fas fa-users"></i>
+                                    <span>Teamwork</span>
+                                </div>
+                                <div class="about-img-card about-img-3">
+                                    <i class="fas fa-trophy"></i>
+                                    <span>Excellence</span>
+                                </div>
+                                <div class="about-img-card about-img-4">
+                                    <i class="fas fa-heart"></i>
+                                    <span>Passion</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section section-grey">
+                <div class="container">
+                    <div class="section-header reveal">
+                        <span class="section-tag">Our Values</span>
+                        <h2 class="section-title">What Drives Us <span class="text-gradient">Every Day</span></h2>
+                    </div>
+                    <div class="values-grid">
+                        <div class="value-card reveal" data-delay="0">
+                            <div class="value-number">01</div>
+                            <h3>Patient-First Thinking</h3>
+                            <p>Every design decision, every content piece, every strategy is built around how patients
+                                find, trust, and choose doctors online.</p>
+                        </div>
+                        <div class="value-card reveal" data-delay="100">
+                            <div class="value-number">02</div>
+                            <h3>Radical Transparency</h3>
+                            <p>No hidden fees, no jargon, no false promises. You'll always know exactly what we're doing
+                                and why it matters for your practice.</p>
+                        </div>
+                        <div class="value-card reveal" data-delay="200">
+                            <div class="value-number">03</div>
+                            <h3>Premium Quality Always</h3>
+                            <p>We refuse to cut corners. Every website, every post, every digital asset we create meets
+                                the highest standards of design and performance.</p>
+                        </div>
+                        <div class="value-card reveal" data-delay="300">
+                            <div class="value-number">04</div>
+                            <h3>Continuous Innovation</h3>
+                            <p>Digital marketing evolves fast. We stay ahead of trends, test new approaches, and ensure
+                                your practice always has a competitive edge.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="section-header reveal">
+                        <span class="section-tag">Leadership</span>
+                        <h2 class="section-title">Meet the <span class="text-gradient">Team</span></h2>
+                        <p class="section-subtitle">A passionate crew of designers, developers, and healthcare marketers
+                            united by one goal.</p>
+                    </div>
+                    <div class="team-grid">
+                        <div class="team-card reveal" data-delay="0">
+                            <div class="team-avatar">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <h3>Founder & CEO</h3>
+                            <p>Visionary leader with 8+ years in digital marketing and healthcare technology. Driven by
+                                the mission to digitize Indian healthcare.</p>
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-card reveal" data-delay="100">
+                            <div class="team-avatar">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <h3>Creative Director</h3>
+                            <p>Award-winning designer specializing in healthcare branding, UI/UX, and visual
+                                storytelling that converts visitors into patients.</p>
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-card reveal" data-delay="200">
+                            <div class="team-avatar">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>Tech Lead</h3>
+                            <p>Full-stack developer with expertise in performance-optimized medical websites, booking
+                                systems, and digital tools.</p>
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-card reveal" data-delay="300">
+                            <div class="team-avatar">
+                                <i class="fas fa-bullhorn"></i>
+                            </div>
+                            <h3>Marketing Head</h3>
+                            <p>Healthcare marketing strategist with deep expertise in SEO, Google Ads, social media
+                                growth, and patient acquisition funnels.</p>
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: SERVICES ==================== -->
+        <section id="services" class="page-section">
+            <div class="page-hero page-hero-sm">
+                <div class="container">
+                    <span class="page-badge reveal">Our Services</span>
+                    <h1 class="page-title reveal">Complete Digital Ecosystem <span class="text-gradient">For
+                            Doctors</span></h1>
+                    <p class="page-subtitle reveal">Everything you need to establish, grow, and dominate your digital
+                        presence — under one roof.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="services-showcase">
+                        <div class="service-showcase-item reveal" data-delay="0">
+                            <div class="service-showcase-number">01</div>
+                            <div class="service-showcase-content">
+                                <div class="service-showcase-icon"><i class="fas fa-laptop-code"></i></div>
+                                <h3>Website Development</h3>
+                                <p>Custom, responsive, SEO-optimized websites designed exclusively for doctors. Features
+                                    include online appointment booking, patient testimonials, doctor profiles, service
+                                    listings, and a premium look that builds instant trust.</p>
+                                <ul class="service-features-list">
+                                    <li><i class="fas fa-check"></i> Mobile-first responsive design</li>
+                                    <li><i class="fas fa-check"></i> Appointment booking system</li>
+                                    <li><i class="fas fa-check"></i> SEO optimized from day one</li>
+                                    <li><i class="fas fa-check"></i> Fast loading under 3 seconds</li>
+                                </ul>
+                                <a href="#web-development" class="btn btn-outline" data-route="web-development">
+                                    <span>View Details</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="service-showcase-item reverse reveal" data-delay="100">
+                            <div class="service-showcase-number">02</div>
+                            <div class="service-showcase-content">
+                                <div class="service-showcase-icon"><i class="fas fa-id-card"></i></div>
+                                <h3>Digital Business Card</h3>
+                                <p>Replace your paper visiting card with a smart, QR-coded digital card. Patients scan
+                                    once and save your complete profile — phone, WhatsApp, clinic address, website, and
+                                    specialties — instantly to their phone.</p>
+                                <ul class="service-features-list">
+                                    <li><i class="fas fa-check"></i> One-tap WhatsApp & calling</li>
+                                    <li><i class="fas fa-check"></i> NFC + QR code enabled</li>
+                                    <li><i class="fas fa-check"></i> Real-time profile updates</li>
+                                    <li><i class="fas fa-check"></i> Shareable via link anywhere</li>
+                                </ul>
+                                <a href="#digital-card" class="btn btn-outline" data-route="digital-card">
+                                    <span>View Details</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="service-showcase-item reveal" data-delay="200">
+                            <div class="service-showcase-number">03</div>
+                            <div class="service-showcase-content">
+                                <div class="service-showcase-icon"><i class="fas fa-hashtag"></i></div>
+                                <h3>Social Media Branding</h3>
+                                <p>Strategic social media management that transforms your profiles into patient magnets.
+                                    We create medical awareness content, health tips, behind-the-scenes clinic content,
+                                    and patient success stories that build authority.</p>
+                                <ul class="service-features-list">
+                                    <li><i class="fas fa-check"></i> Instagram, Facebook, LinkedIn</li>
+                                    <li><i class="fas fa-check"></i> Medical content creation</li>
+                                    <li><i class="fas fa-check"></i> Community engagement</li>
+                                    <li><i class="fas fa-check"></i> Monthly analytics reports</li>
+                                </ul>
+                                <a href="#social-media" class="btn btn-outline" data-route="social-media">
+                                    <span>View Details</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="service-showcase-item reverse reveal" data-delay="300">
+                            <div class="service-showcase-number">04</div>
+                            <div class="service-showcase-content">
+                                <div class="service-showcase-icon"><i class="fas fa-funnel-dollar"></i></div>
+                                <h3>Growth & Marketing System</h3>
+                                <p>A complete patient acquisition funnel — from Google search visibility to appointment
+                                    booking. Includes Google Business Profile optimization, local SEO, review
+                                    management, and paid advertising strategies.</p>
+                                <ul class="service-features-list">
+                                    <li><i class="fas fa-check"></i> Google Business Profile setup</li>
+                                    <li><i class="fas fa-check"></i> Local SEO domination</li>
+                                    <li><i class="fas fa-check"></i> Review generation system</li>
+                                    <li><i class="fas fa-check"></i> Paid ads management</li>
+                                </ul>
+                                <a href="#growth-system" class="btn btn-outline" data-route="growth-system">
+                                    <span>View Details</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: PATIENT JOURNEY ==================== -->
+        <section id="patient-journey" class="page-section">
+            <div class="page-hero page-hero-sm">
+                <div class="container">
+                    <span class="page-badge reveal">Patient Journey</span>
+                    <h1 class="page-title reveal">How Patients Find <span class="text-gradient">Their Doctor
+                            Online</span></h1>
+                    <p class="page-subtitle reveal">Understanding the modern patient's digital journey is the first step
+                        to capturing them.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="journey-timeline">
+                        <div class="journey-step reveal" data-delay="0">
+                            <div class="journey-step-icon"><i class="fas fa-search"></i></div>
+                            <div class="journey-step-content">
+                                <span class="journey-step-label">Step 01</span>
+                                <h3>Google Search</h3>
+                                <p>Patient types "best dermatologist near me" or "dentist in [city]" into Google. This
+                                    is where 77% of healthcare journeys begin. If you're not visible here, you're
+                                    invisible.</p>
+                            </div>
+                            <div class="journey-connector"></div>
+                        </div>
+                        <div class="journey-step reveal" data-delay="150">
+                            <div class="journey-step-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="journey-step-content">
+                                <span class="journey-step-label">Step 02</span>
+                                <h3>Google Maps & Listings</h3>
+                                <p>Patient checks Google Maps for nearby doctors, reads reviews, checks ratings, and
+                                    looks at photos. A well-optimized Google Business Profile makes all the difference.
+                                </p>
+                            </div>
+                            <div class="journey-connector"></div>
+                        </div>
+                        <div class="journey-step reveal" data-delay="300">
+                            <div class="journey-step-icon"><i class="fas fa-globe"></i></div>
+                            <div class="journey-step-content">
+                                <span class="journey-step-label">Step 03</span>
+                                <h3>Website Visit</h3>
+                                <p>Patient visits your website to learn about your qualifications, experience, services,
+                                    patient testimonials, and clinic atmosphere. A premium website builds instant
+                                    credibility.</p>
+                            </div>
+                            <div class="journey-connector"></div>
+                        </div>
+                        <div class="journey-step reveal" data-delay="450">
+                            <div class="journey-step-icon"><i class="fab fa-instagram"></i></div>
+                            <div class="journey-step-content">
+                                <span class="journey-step-label">Step 04</span>
+                                <h3>Social Media Check</h3>
+                                <p>Patient checks your Instagram or Facebook to see your personality, patient
+                                    interactions, medical awareness posts, and real reviews. Social proof is powerful.
+                                </p>
+                            </div>
+                            <div class="journey-connector"></div>
+                        </div>
+                        <div class="journey-step reveal" data-delay="600">
+                            <div class="journey-step-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="journey-step-content">
+                                <span class="journey-step-label">Step 05</span>
+                                <h3>Direct Contact</h3>
+                                <p>Confident patient calls, WhatsApps, or books an appointment online through your
+                                    website. The journey from search to booking should be frictionless.</p>
+                            </div>
+                            <div class="journey-connector"></div>
+                        </div>
+                        <div class="journey-step journey-step-final reveal" data-delay="750">
+                            <div class="journey-step-icon"><i class="fas fa-calendar-check"></i></div>
+                            <div class="journey-step-content">
+                                <span class="journey-step-label">Step 06</span>
+                                <h3>Clinic Visit & Trust</h3>
+                                <p>Patient visits your clinic with pre-existing trust. They're more likely to follow
+                                    treatment plans, refer others, and leave positive reviews — completing the growth
+                                    loop.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="journey-insight-box reveal">
+                        <div class="insight-icon"><i class="fas fa-lightbulb"></i></div>
+                        <div class="insight-content">
+                            <h3>Key Insight</h3>
+                            <p>Patients make their decision BEFORE they call you. Your digital presence is your first
+                                consultation. Make it count with SparkMediaX.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: PROBLEM ==================== -->
+        <section id="problem" class="page-section">
+            <div class="page-hero page-hero-sm page-hero-dark">
+                <div class="container">
+                    <span class="page-badge badge-red reveal">The Problem</span>
+                    <h1 class="page-title reveal">Most Doctors Are <span class="text-red">Invisible Online</span></h1>
+                    <p class="page-subtitle reveal">Despite being excellent clinicians, the majority of doctors in India
+                        lose patients daily because of a weak or non-existent digital presence.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="problem-stats-row reveal">
+                        <div class="problem-stat-card">
+                            <div class="problem-stat-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                            <span class="problem-stat-number" data-target="73">0</span><span
+                                class="problem-stat-suffix">%</span>
+                            <span class="problem-stat-label">of patients search online before choosing a doctor</span>
+                        </div>
+                        <div class="problem-stat-card">
+                            <div class="problem-stat-icon"><i class="fas fa-times-circle"></i></div>
+                            <span class="problem-stat-number" data-target="82">0</span><span
+                                class="problem-stat-suffix">%</span>
+                            <span class="problem-stat-label">of doctors don't have a professional website</span>
+                        </div>
+                        <div class="problem-stat-card">
+                            <div class="problem-stat-icon"><i class="fas fa-arrow-down"></i></div>
+                            <span class="problem-stat-number" data-target="60">0</span><span
+                                class="problem-stat-suffix">%</span>
+                            <span class="problem-stat-label">of clinics lose patients to competitors with better online
+                                presence</span>
+                        </div>
+                    </div>
+                    <div class="problems-grid">
+                        <div class="problem-card reveal" data-delay="0">
+                            <div class="problem-card-icon red"><i class="fas fa-globe"></i></div>
+                            <h3>No Website or Outdated Website</h3>
+                            <p>Either no website exists, or it's a 10-year-old template that looks unprofessional, loads
+                                slowly, and isn't mobile-friendly. First impressions are permanently damaged.</p>
+                        </div>
+                        <div class="problem-card reveal" data-delay="100">
+                            <div class="problem-card-icon red"><i class="fas fa-eye-slash"></i></div>
+                            <h3>Invisible on Google</h3>
+                            <p>When patients search for your specialty in your city, your name doesn't appear.
+                                Competitors with better SEO capture all those high-intent leads.</p>
+                        </div>
+                        <div class="problem-card reveal" data-delay="200">
+                            <div class="problem-card-icon red"><i class="fas fa-star-half-alt"></i></div>
+                            <h3>Poor Google Reviews</h3>
+                            <p>Either no reviews exist, or negative reviews go unmanaged. A 3-star rating vs a 4.8-star
+                                rating can mean the difference between 10 patients and 100 patients monthly.</p>
+                        </div>
+                        <div class="problem-card reveal" data-delay="300">
+                            <div class="problem-card-icon red"><i class="fas fa-ghost"></i></div>
+                            <h3>Dead Social Media</h3>
+                            <p>Profiles exist but haven't been updated in months. No content strategy, no engagement, no
+                                community building. It looks abandoned and unprofessional.</p>
+                        </div>
+                        <div class="problem-card reveal" data-delay="400">
+                            <div class="problem-card-icon red"><i class="fas fa-file-invoice"></i></div>
+                            <h3>Paper-Only Business Cards</h3>
+                            <p>Still handing out paper cards that get lost, damaged, or forgotten. No digital
+                                alternative for instant contact saving and sharing.</p>
+                        </div>
+                        <div class="problem-card reveal" data-delay="500">
+                            <div class="problem-card-icon red"><i class="fas fa-user-slash"></i></div>
+                            <h3>No Brand Identity</h3>
+                            <p>No consistent logo, colors, or visual language. Patients can't recognize or remember your
+                                practice. You blend in instead of standing out.</p>
+                        </div>
+                    </div>
+                    <div class="problem-cta reveal">
+                        <p>These problems are costing you patients every single day. The good news? Every one of them
+                            has a solution.</p>
+                        <button class="btn btn-primary btn-magnetic" onclick="router.navigate('solutions')">
+                            <span>See The Solutions</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: DIGITAL PRESENCE ==================== -->
+        <section id="digital-presence" class="page-section">
+            <div class="page-hero page-hero-sm">
+                <div class="container">
+                    <span class="page-badge reveal">Why It Matters</span>
+                    <h1 class="page-title reveal">The Importance of <span class="text-gradient">Digital Presence</span>
+                    </h1>
+                    <p class="page-subtitle reveal">In 2025, your digital presence IS your reputation. Here's why
+                        investing in it is not optional — it's essential.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="presence-grid">
+                        <div class="presence-card reveal" data-delay="0">
+                            <div class="presence-card-visual">
+                                <div class="presence-icon-circle"><i class="fas fa-handshake"></i></div>
+                            </div>
+                            <h3>Trust & Credibility</h3>
+                            <p>A professional website and active social media profiles signal that you're a modern,
+                                trustworthy practitioner. Patients equate digital presence with quality of care.</p>
+                            <div class="presence-metric">
+                                <span class="metric-value">75%</span>
+                                <span class="metric-label">of patients judge credibility by website design</span>
+                            </div>
+                        </div>
+                        <div class="presence-card reveal" data-delay="100">
+                            <div class="presence-card-visual">
+                                <div class="presence-icon-circle"><i class="fas fa-star"></i></div>
+                            </div>
+                            <h3>Ratings & Reviews</h3>
+                            <p>Online reviews are the new word-of-mouth. A strong Google rating with genuine patient
+                                reviews is the most powerful trust signal in healthcare marketing.</p>
+                            <div class="presence-metric">
+                                <span class="metric-value">4.8★</span>
+                                <span class="metric-label">average rating drives 2x more appointments</span>
+                            </div>
+                        </div>
+                        <div class="presence-card reveal" data-delay="200">
+                            <div class="presence-card-visual">
+                                <div class="presence-icon-circle"><i class="fas fa-search"></i></div>
+                            </div>
+                            <h3>Google Visibility</h3>
+                            <p>Being on the first page of Google for your specialty + city is like having the best
+                                location in a medical hub. It drives consistent, high-quality patient inquiries.</p>
+                            <div class="presence-metric">
+                                <span class="metric-value">#1</span>
+                                <span class="metric-label">Google result gets 32% of all clicks</span>
+                            </div>
+                        </div>
+                        <div class="presence-card reveal" data-delay="300">
+                            <div class="presence-card-visual">
+                                <div class="presence-icon-circle"><i class="fas fa-chart-line"></i></div>
+                            </div>
+                            <h3>Consistent Growth</h3>
+                            <p>Unlike referral-based growth which is unpredictable, a strong digital presence creates a
+                                consistent, scalable pipeline of new patients month after month.</p>
+                            <div class="presence-metric">
+                                <span class="metric-value">3x</span>
+                                <span class="metric-label">patient growth within 6 months average</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section section-grey">
+                <div class="container">
+                    <div class="presence-comparison reveal">
+                        <div class="comparison-side comparison-without">
+                            <h3><i class="fas fa-times-circle"></i> Without Digital Presence</h3>
+                            <ul>
+                                <li><i class="fas fa-arrow-down"></i> Relying only on word-of-mouth</li>
+                                <li><i class="fas fa-arrow-down"></i> Losing patients to competitors online</li>
+                                <li><i class="fas fa-arrow-down"></i> No control over your online reputation</li>
+                                <li><i class="fas fa-arrow-down"></i> Unpredictable patient flow</li>
+                                <li><i class="fas fa-arrow-down"></i> Seen as outdated by younger patients</li>
+                            </ul>
+                        </div>
+                        <div class="comparison-divider">
+                            <span>VS</span>
+                        </div>
+                        <div class="comparison-side comparison-with">
+                            <h3><i class="fas fa-check-circle"></i> With SparkMediaX</h3>
+                            <ul>
+                                <li><i class="fas fa-arrow-up"></i> Multiple patient acquisition channels</li>
+                                <li><i class="fas fa-arrow-up"></i> Dominate local search results</li>
+                                <li><i class="fas fa-arrow-up"></i> 5-star reputation actively managed</li>
+                                <li><i class="fas fa-arrow-up"></i> Predictable, growing patient pipeline</li>
+                                <li><i class="fas fa-arrow-up"></i> Perceived as a leading specialist</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: SOLUTIONS ==================== -->
+        <section id="solutions" class="page-section">
+            <div class="page-hero page-hero-sm">
+                <div class="container">
+                    <span class="page-badge reveal">Solutions</span>
+                    <h1 class="page-title reveal">Your Complete <span class="text-gradient">Digital Ecosystem</span>
+                    </h1>
+                    <p class="page-subtitle reveal">We don't offer random services. We build an interconnected digital
+                        ecosystem where every element works together to attract and convert patients.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="ecosystem-visual reveal">
+                        <div class="ecosystem-center">
+                            <div class="ecosystem-core">
+                                <i class="fas fa-user-md"></i>
+                                <span>Your Practice</span>
+                            </div>
+                        </div>
+                        <div class="ecosystem-node node-1">
+                            <div class="node-icon"><i class="fas fa-globe"></i></div>
+                            <span>Website</span>
+                        </div>
+                        <div class="ecosystem-node node-2">
+                            <div class="node-icon"><i class="fas fa-id-card"></i></div>
+                            <span>Digital Card</span>
+                        </div>
+                        <div class="ecosystem-node node-3">
+                            <div class="node-icon"><i class="fab fa-google"></i></div>
+                            <span>Google Profile</span>
+                        </div>
+                        <div class="ecosystem-node node-4">
+                            <div class="node-icon"><i class="fab fa-instagram"></i></div>
+                            <span>Social Media</span>
+                        </div>
+                        <div class="ecosystem-node node-5">
+                            <div class="node-icon"><i class="fas fa-qrcode"></i></div>
+                            <span>QR Code</span>
+                        </div>
+                        <div class="ecosystem-node node-6">
+                            <div class="node-icon"><i class="fas fa-chart-bar"></i></div>
+                            <span>Analytics</span>
+                        </div>
+                        <div class="ecosystem-line line-1"></div>
+                        <div class="ecosystem-line line-2"></div>
+                        <div class="ecosystem-line line-3"></div>
+                        <div class="ecosystem-line line-4"></div>
+                        <div class="ecosystem-line line-5"></div>
+                        <div class="ecosystem-line line-6"></div>
+                    </div>
+                    <div class="solutions-detail-grid">
+                        <div class="solution-detail-card reveal" data-delay="0">
+                            <div class="solution-detail-icon"><i class="fas fa-link"></i></div>
+                            <h3>Interconnected Systems</h3>
+                            <p>Your website links to your Google profile. Your digital card links to your social media.
+                                Your social media drives traffic to your website. Everything is connected for maximum
+                                impact.</p>
+                        </div>
+                        <div class="solution-detail-card reveal" data-delay="100">
+                            <div class="solution-detail-icon"><i class="fas fa-sync-alt"></i></div>
+                            <h3>Unified Branding</h3>
+                            <p>Same logo, colors, fonts, and tone of voice across every touchpoint. Patients recognize
+                                your brand instantly whether they see your website, card, or Instagram post.</p>
+                        </div>
+                        <div class="solution-detail-card reveal" data-delay="200">
+                            <div class="solution-detail-icon"><i class="fas fa-database"></i></div>
+                            <h3>Single Dashboard</h3>
+                            <p>Track website visitors, social media engagement, Google profile views, and appointment
+                                bookings — all from one simple dashboard. No more guessing what's working.</p>
+                        </div>
+                        <div class="solution-detail-card reveal" data-delay="300">
+                            <div class="solution-detail-icon"><i class="fas fa-rocket"></i></div>
+                            <h3>Scalable Growth</h3>
+                            <p>Start with what you need, add services as you grow. Our ecosystem is modular — each
+                                component delivers value independently but multiplies results together.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: WEB DEVELOPMENT ==================== -->
+        <section id="web-development" class="page-section">
+            <div class="page-hero page-hero-sm">
+                <div class="container">
+                    <span class="page-badge reveal">Website Development</span>
+                    <h1 class="page-title reveal">Premium Doctor Websites <span class="text-gradient">That
+                            Convert</span></h1>
+                    <p class="page-subtitle reveal">Not a template. Not a DIY builder. A custom-designed,
+                        performance-optimized website built to attract patients and build trust.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="webdev-showcase reveal">
+                        <div class="webdev-mockup">
+                            <div class="webdev-laptop">
+                                <div class="laptop-screen">
+                                    <div class="laptop-content">
+                                        <div class="laptop-header-bar">
+                                            <div class="laptop-logo-placeholder">Dr. Clinic</div>
+                                            <div class="laptop-nav-placeholder">
+                                                <span></span><span></span><span></span><span
+                                                    class="laptop-btn-placeholder"></span>
+                                            </div>
+                                        </div>
+                                        <div class="laptop-hero-area">
+                                            <div class="laptop-hero-text">
+                                                <div class="laptop-skeleton laptop-sk-lg"></div>
+                                                <div class="laptop-skeleton laptop-sk-md"></div>
+                                                <div class="laptop-skeleton laptop-sk-sm"></div>
+                                                <div class="laptop-skeleton laptop-sk-btn"></div>
+                                            </div>
+                                            <div class="laptop-hero-img-placeholder">
+                                                <i class="fas fa-user-md"></i>
+                                            </div>
+                                        </div>
+                                        <div class="laptop-features-row">
+                                            <div class="laptop-feature-card"></div>
+                                            <div class="laptop-feature-card"></div>
+                                            <div class="laptop-feature-card"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="laptop-base"></div>
+                            </div>
+                            <div class="webdev-mobile">
+                                <div class="mobile-screen">
+                                    <div class="mobile-content">
+                                        <div class="mobile-header-bar">
+                                            <span>Dr. Clinic</span>
+                                            <span class="mobile-menu-icon"><i class="fas fa-bars"></i></span>
+                                        </div>
+                                        <div class="mobile-hero-mini">
+                                            <div class="laptop-skeleton laptop-sk-sm"></div>
+                                            <div class="laptop-skeleton laptop-sk-xs"></div>
+                                            <div class="laptop-skeleton laptop-sk-btn-sm"></div>
+                                        </div>
+                                        <div class="mobile-cards-mini">
+                                            <div class="mobile-mini-card"></div>
+                                            <div class="mobile-mini-card"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="webdev-features reveal">
+                        <div class="webdev-feature">
+                            <div class="wf-icon"><i class="fas fa-mobile-alt"></i></div>
+                            <div class="wf-content">
+                                <h3>Fully Responsive</h3>
+                                <p>Pixel-perfect on every device — desktop, tablet, and mobile. Over 70% of patients
+                                    will visit your site from their phone.</p>
+                            </div>
+                        </div>
+                        <div class="webdev-feature">
+                            <div class="wf-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            <div class="wf-content">
+                                <h3>Lightning Fast</h3>
+                                <p>Optimized to load in under 3 seconds. Slow websites lose 53% of visitors. We ensure
+                                    yours is blazing fast.</p>
+                            </div>
+                        </div>
+                        <div class="webdev-feature">
+                            <div class="wf-icon"><i class="fas fa-calendar-alt"></i></div>
+                            <div class="wf-content">
+                                <h3>Appointment Booking</h3>
+                                <p>Integrated booking system lets patients schedule appointments directly from your
+                                    website — 24/7, no phone calls needed.</p>
+                            </div>
+                        </div>
+                        <div class="webdev-feature">
+                            <div class="wf-icon"><i class="fas fa-search-plus"></i></div>
+                            <div class="wf-content">
+                                <h3>SEO Optimized</h3>
+                                <p>Built with clean code, proper heading structure, meta tags, schema markup, and
+                                    content strategy to rank on Google from day one.</p>
+                            </div>
+                        </div>
+                        <div class="webdev-feature">
+                            <div class="wf-icon"><i class="fas fa-lock"></i></div>
+                            <div class="wf-content">
+                                <h3>Secure & Reliable</h3>
+                                <p>SSL certificate, secure hosting, regular backups, and uptime monitoring. Your website
+                                    is always safe and always online.</p>
+                            </div>
+                        </div>
+                        <div class="webdev-feature">
+                            <div class="wf-icon"><i class="fas fa-edit"></i></div>
+                            <div class="wf-content">
+                                <h3>Easy to Update</h3>
+                                <p>Need to add a new service or update timings? We make it easy with a simple content
+                                    management system or just tell us and we'll update it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: WEB BENEFITS ==================== -->
+        <section id="web-benefits" class="page-section">
+            <div class="page-hero page-hero-sm">
+                <div class="container">
+                    <span class="page-badge reveal">Website Benefits</span>
+                    <h1 class="page-title reveal">Why Every Doctor <span class="text-gradient">Needs a Website</span>
+                    </h1>
+                    <p class="page-subtitle reveal">A website isn't an expense — it's an investment that pays for itself
+                        with the very first patient it brings in.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="benefits-grid">
+                        <div class="benefit-card reveal" data-delay="0">
+                            <div class="benefit-icon-wrap">
+                                <i class="fas fa-check-double"></i>
+                            </div>
+                            <h3>24/7 Patient Acquisition</h3>
+                            <p>Your website works round the clock — even when you're in surgery or asleep. Patients can
+                                learn about you, see your credentials, and book appointments anytime.</p>
+                        </div>
+                        <div class="benefit-card reveal" data-delay="100">
+                            <div class="benefit-icon-wrap">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3>Instant Trust Building</h3>
+                            <p>A well-designed website with patient testimonials, credentials, and a professional look
+                                builds more trust in 10 seconds than a referral can in 10 minutes.</p>
+                        </div>
+                        <div class="benefit-card reveal" data-delay="200">
+                            <div class="benefit-icon-wrap">
+                                <i class="fas fa-calendar-check"></i>
+                            </div>
+                            <h3>Reduce Phone Calls</h3>
+                            <p>With online booking, FAQs, and detailed service info, your staff spends less time on
+                                routine calls and more time on patient care.</p>
+                        </div>
+                        <div class="benefit-card reveal" data-delay="300">
+                            <div class="benefit-icon-wrap">
+                                <i class="fas fa-arrow-up"></i>
+                            </div>
+                            <h3>Higher Google Ranking</h3>
+                            <p>A website is the foundation of SEO. Without it, you simply cannot rank for "doctor near
+                                me" searches — no matter how good you are clinically.</p>
+                        </div>
+                        <div class="benefit-card reveal" data-delay="400">
+                            <div class="benefit-icon-wrap">
+                                <i class="fas fa-images"></i>
+                            </div>
+                            <h3>Showcase Your Expertise</h3>
+                            <p>Display your qualifications, specializations, case studies, before/after results, and
+                                patient success stories in a structured, impressive way.</p>
+                        </div>
+                        <div class="benefit-card reveal" data-delay="500">
+                            <div class="benefit-icon-wrap">
+                                <i class="fas fa-map-marked-alt"></i>
+                            </div>
+                            <h3>Local SEO Advantage</h3>
+                            <p>A website with your clinic's location, service areas, and local content helps you
+                                dominate "near me" searches in your city and neighborhood.</p>
+                        </div>
+                        <div class="benefit-card reveal" data-delay="600">
+                            <div class="benefit-icon-wrap">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>Measurable Results</h3>
+                            <p>Track exactly how many visitors come to your site, which services they view, and how many
+                                book appointments. Data-driven decisions replace guesswork.</p>
+                        </div>
+                        <div class="benefit-card reveal" data-delay="700">
+                            <div class="benefit-icon-wrap">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <h3>Competitive Edge</h3>
+                            <p>Most doctors in your area probably don't have a good website. This is your chance to
+                                stand out and capture the market share they're leaving on the table.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-roi-box reveal">
+                        <div class="roi-content">
+                            <h3>Return on Investment</h3>
+                            <p>If your website brings just <strong>2 new patients per month</strong> (conservative), and
+                                each patient's lifetime value is <strong>₹5,000</strong>, that's
+                                <strong>₹1,20,000/year</strong> from an investment of a fraction of that. The ROI is
+                                undeniable.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: DIGITAL CARD ==================== -->
+        <section id="digital-card" class="page-section">
+            <div class="page-hero page-hero-sm">
+                <div class="container">
+                    <span class="page-badge reveal">Digital Business Card</span>
+                    <h1 class="page-title reveal">Your Smart <span class="text-gradient">Digital Visiting Card</span>
+                    </h1>
+                    <p class="page-subtitle reveal">One scan. Instant connection. Never lose a patient's contact again.
+                    </p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="dcard-showcase reveal">
+                        <div class="dcard-phone-mockup">
+                            <div class="phone-frame">
+                                <div class="phone-notch"></div>
+                                <div class="phone-screen">
+                                    <div class="phone-profile-header">
+                                        <div class="phone-avatar"><i class="fas fa-user-md"></i></div>
+                                        <h4>Dr. Rajesh Sharma</h4>
+                                        <p>MBBS, MD - Cardiologist</p>
+                                        <div class="phone-rating">★★★★★ <span>4.9</span></div>
+                                    </div>
+                                    <div class="phone-action-buttons">
+                                        <div class="phone-action-btn call-btn"><i
+                                                class="fas fa-phone"></i><span>Call</span></div>
+                                        <div class="phone-action-btn whatsapp-btn"><i
+                                                class="fab fa-whatsapp"></i><span>WhatsApp</span></div>
+                                        <div class="phone-action-btn email-btn"><i
+                                                class="fas fa-envelope"></i><span>Email</span></div>
+                                    </div>
+                                    <div class="phone-info-section">
+                                        <div class="phone-info-row"><i class="fas fa-map-marker-alt"></i><span>Mumbai,
+                                                Maharashtra</span></div>
+                                        <div class="phone-info-row"><i class="fas fa-clock"></i><span>Mon-Sat, 10AM -
+                                                7PM</span></div>
+                                        <div class="phone-info-row"><i
+                                                class="fas fa-globe"></i><span>www.drsharma.com</span></div>
+                                    </div>
+                                    <div class="phone-save-btn">Save Contact</div>
+                                </div>
+                            </div>
+                            <div class="dcard-qr-label">
+                                <i class="fas fa-qrcode"></i>
+                                <span>Scan QR to view</span>
+                            </div>
+                        </div>
+                        <div class="dcard-features">
+                            <div class="dcard-feature-item reveal" data-delay="0">
+                                <div class="dcard-fi-icon"><i class="fas fa-bolt"></i></div>
+                                <h3>Instant Sharing</h3>
+                                <p>Patient scans your QR code or taps your NFC card — your complete professional profile
+                                    appears on their phone in under 1 second.</p>
+                            </div>
+                            <div class="dcard-feature-item reveal" data-delay="100">
+                                <div class="dcard-fi-icon"><i class="fab fa-whatsapp"></i></div>
+                                <h3>One-Tap WhatsApp</h3>
+                                <p>Patients can start a WhatsApp conversation with you directly from the card — no need
+                                    to save your number first.</p>
+                            </div>
+                            <div class="dcard-feature-item reveal" data-delay="200">
+                                <div class="dcard-fi-icon"><i class="fas fa-sync"></i></div>
+                                <h3>Real-Time Updates</h3>
+                                <p>Changed your clinic timings? Added a new service? Update your digital card once and
+                                    every scan shows the latest info.</p>
+                            </div>
+                            <div class="dcard-feature-item reveal" data-delay="300">
+                                <div class="dcard-fi-icon"><i class="fas fa-share-alt"></i></div>
+                                <h3>Shareable Link</h3>
+                                <p>Share your digital card via WhatsApp, SMS, email, or any platform. Patients can also
+                                    forward it to their friends and family.</p>
+                            </div>
+                            <div class="dcard-feature-item reveal" data-delay="400">
+                                <div class="dcard-fi-icon"><i class="fas fa-address-book"></i></div>
+                                <h3>Save to Contacts</h3>
+                                <p>One tap saves all your details — name, phone, email, clinic address — directly to the
+                                    patient's phone contacts.</p>
+                            </div>
+                            <div class="dcard-feature-item reveal" data-delay="500">
+                                <div class="dcard-fi-icon"><i class="fas fa-chart-bar"></i></div>
+                                <h3>Scan Analytics</h3>
+                                <p>Know how many people scanned your card, when, and from where. Track the ROI of every
+                                    networking event and conference.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: SOCIAL MEDIA ==================== -->
+        <section id="social-media" class="page-section">
+            <div class="page-hero page-hero-sm">
+                <div class="container">
+                    <span class="page-badge reveal">Social Media Branding</span>
+                    <h1 class="page-title reveal">Build Authority on <span class="text-gradient">Social Media</span>
+                    </h1>
+                    <p class="page-subtitle reveal">Transform your social profiles from personal pages to powerful
+                        patient acquisition tools.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="social-platforms reveal">
+                        <div class="social-platform-card">
+                            <i class="fab fa-instagram"></i>
+                            <h3>Instagram</h3>
+                            <p>Visual storytelling, Reels, Stories, medical tips, before/after cases, day-in-the-life
+                                content that humanizes your practice.</p>
+                        </div>
+                        <div class="social-platform-card">
+                            <i class="fab fa-facebook-f"></i>
+                            <h3>Facebook</h3>
+                            <p>Community building, patient groups, long-form medical content, event promotions, and
+                                targeted local advertising.</p>
+                        </div>
+                        <div class="social-platform-card">
+                            <i class="fab fa-linkedin-in"></i>
+                            <h3>LinkedIn</h3>
+                            <p>Professional thought leadership, medical research sharing, networking with peers, and
+                                building referral relationships.</p>
+                        </div>
+                        <div class="social-platform-card">
+                            <i class="fab fa-youtube"></i>
+                            <h3>YouTube</h3>
+                            <p>Medical explainer videos, patient education series, Q&A sessions, and procedure
+                                walkthroughs that build massive trust.</p>
+                        </div>
+                    </div>
+                    <div class="social-content-types reveal">
+                        <h2 class="section-title-sm">Content We Create</h2>
+                        <div class="content-type-grid">
+                            <div class="content-type-item">
+                                <div class="cti-icon"><i class="fas fa-heartbeat"></i></div>
+                                <span>Health Tips</span>
+                            </div>
+                            <div class="content-type-item">
+                                <div class="cti-icon"><i class="fas fa-book-medical"></i></div>
+                                <span>Medical Awareness</span>
+                            </div>
+                            <div class="content-type-item">
+                                <div class="cti-icon"><i class="fas fa-user-check"></i></div>
+                                <span>Patient Stories</span>
+                            </div>
+                            <div class="content-type-item">
+                                <div class="cti-icon"><i class="fas fa-camera"></i></div>
+                                <span>Behind the Scenes</span>
+                            </div>
+                            <div class="content-type-item">
+                                <div class="cti-icon"><i class="fas fa-question-circle"></i></div>
+                                <span>FAQs & Myths</span>
+                            </div>
+                            <div class="content-type-item">
+                                <div class="cti-icon"><i class="fas fa-award"></i></div>
+                                <span>Achievements</span>
+                            </div>
+                            <div class="content-type-item">
+                                <div class="cti-icon"><i class="fas fa-video"></i></div>
+                                <span>Reels & Shorts</span>
+                            </div>
+                            <div class="content-type-item">
+                                <div class="cti-icon"><i class="fas fa-images"></i></div>
+                                <span>Carousels</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Koushik -->
+                    <!-- <div class="social-deliverables reveal">
+                        <h2 class="section-title-sm">What You Get Monthly</h2>
+                        <div class="deliverables-grid">
+                            <div class="deliverable-card">
+                                <span class="deliverable-number">12+</span>
+                                <span class="deliverable-label">Posts Designed</span>
+                            </div>
+                            <div class="deliverable-card">
+                                <span class="deliverable-number">4+</span>
+                                <span class="deliverable-label">Reels / Shorts</span>
+                            </div>
+                            <div class="deliverable-card">
+                                <span class="deliverable-number">8+</span>
+                                <span class="deliverable-label">Stories</span>
+                            </div>
+                            <div class="deliverable-card">
+                                <span class="deliverable-number">1</span>
+                                <span class="deliverable-label>Monthly Report</span>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="social-deliverables reveal">
+                        <div class="deliverables-header">
+                            <h2 class="section-title-sm" style="margin-bottom:0;">What You Get Monthly</h2>
+                            <span class="deliverables-badge">Professional Package</span>
+                        </div>
+                        <div class="deliverables-grid-v2">
+                            <div class="deliverable-card-v2">
+                                <div class="dcv-top">
+                                    <div class="dcv-icon-wrap">
+                                        <i class="fas fa-palette"></i>
+                                    </div>
+                                    <div class="dcv-ring">
+                                        <svg viewBox="0 0 80 80" class="dcv-ring-svg">
+                                            <circle cx="40" cy="40" r="34" fill="none" stroke="#E2E8F0"
+                                                stroke-width="5" />
+                                            <circle cx="40" cy="40" r="34" fill="none" stroke="#1E5EFF" stroke-width="5"
+                                                stroke-linecap="round" stroke-dasharray="213.6" stroke-dashoffset="0"
+                                                class="dcv-ring-progress" data-percent="100" />
+                                        </svg>
+                                        <span class="dcv-ring-number">12+</span>
+                                    </div>
+                                </div>
+                                <div class="dcv-bottom">
+                                    <h3>Posts Designed</h3>
+                                    <p>Custom graphics with your branding, medical content, health tips, and patient
+                                        engagement posts tailored to your specialty.</p>
+                                    <div class="dcv-platforms">
+                                        <i class="fab fa-instagram" title="Instagram"></i>
+                                        <i class="fab fa-facebook-f" title="Facebook"></i>
+                                        <i class="fab fa-linkedin-in" title="LinkedIn"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="deliverable-card-v2">
+                                <div class="dcv-top">
+                                    <div class="dcv-icon-wrap dcv-icon-reel">
+                                        <i class="fas fa-video"></i>
+                                    </div>
+                                    <div class="dcv-ring">
+                                        <svg viewBox="0 0 80 80" class="dcv-ring-svg">
+                                            <circle cx="40" cy="40" r="34" fill="none" stroke="#E2E8F0"
+                                                stroke-width="5" />
+                                            <circle cx="40" cy="40" r="34" fill="none" stroke="#0EA5A0" stroke-width="5"
+                                                stroke-linecap="round" stroke-dasharray="213.6" stroke-dashoffset="0"
+                                                class="dcv-ring-progress" data-percent="100" />
+                                        </svg>
+                                        <span class="dcv-ring-number dcv-ring-number-teal">4+</span>
+                                    </div>
+                                </div>
+                                <div class="dcv-bottom">
+                                    <h3>Reels & Shorts</h3>
+                                    <p>Short-form video content including medical explainers, myth busters,
+                                        day-in-the-life clips, and trending healthcare formats.</p>
+                                    <div class="dcv-platforms">
+                                        <i class="fab fa-instagram" title="Instagram Reels"></i>
+                                        <i class="fab fa-youtube" title="YouTube Shorts"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="deliverable-card-v2">
+                                <div class="dcv-top">
+                                    <div class="dcv-icon-wrap dcv-icon-story">
+                                        <i class="fas fa-bolt"></i>
+                                    </div>
+                                    <div class="dcv-ring">
+                                        <svg viewBox="0 0 80 80" class="dcv-ring-svg">
+                                            <circle cx="40" cy="40" r="34" fill="none" stroke="#E2E8F0"
+                                                stroke-width="5" />
+                                            <circle cx="40" cy="40" r="34" fill="none" stroke="#F59E0B" stroke-width="5"
+                                                stroke-linecap="round" stroke-dasharray="213.6" stroke-dashoffset="0"
+                                                class="dcv-ring-progress" data-percent="100" />
+                                        </svg>
+                                        <span class="dcv-ring-number dcv-ring-number-amber">8+</span>
+                                    </div>
+                                </div>
+                                <div class="dcv-bottom">
+                                    <h3>Stories</h3>
+                                    <p>Engaging story content including polls, Q&A sessions, behind-the-scenes, patient
+                                        reviews, and interactive medical quizzes.</p>
+                                    <div class="dcv-platforms">
+                                        <i class="fab fa-instagram" title="Instagram Stories"></i>
+                                        <i class="fab fa-facebook-f" title="Facebook Stories"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="deliverable-card-v2">
+                                <div class="dcv-top">
+                                    <div class="dcv-icon-wrap dcv-icon-report">
+                                        <i class="fas fa-chart-bar"></i>
+                                    </div>
+                                    <div class="dcv-ring">
+                                        <svg viewBox="0 0 80 80" class="dcv-ring-svg">
+                                            <circle cx="40" cy="40" r="34" fill="none" stroke="#E2E8F0"
+                                                stroke-width="5" />
+                                            <circle cx="40" cy="40" r="34" fill="none" stroke="#8B5CF6" stroke-width="5"
+                                                stroke-linecap="round" stroke-dasharray="213.6" stroke-dashoffset="0"
+                                                class="dcv-ring-progress" data-percent="100" />
+                                        </svg>
+                                        <span class="dcv-ring-number dcv-ring-number-violet">1</span>
+                                    </div>
+                                </div>
+                                <div class="dcv-bottom">
+                                    <h3>Monthly Report</h3>
+                                    <p>Detailed analytics report with reach, engagement, follower growth, top-performing
+                                        content, and actionable insights for next month.</p>
+                                    <div class="dcv-platforms">
+                                        <i class="fas fa-file-pdf" title="PDF Report"></i>
+                                        <i class="fas fa-envelope" title="Email Delivery"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="deliverables-footer-note">
+                            <i class="fas fa-info-circle"></i>
+                            <span>Numbers shown are for Professional package. Starter includes 6 posts, Premium includes
+                                16 posts + 8 Reels + branded templates.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: GROWTH SYSTEM ==================== -->
+        <section id=" growth-system" class="page-section">
+            <div class="page-hero page-hero-sm">
+                <div class="container">
+                    <span class="page-badge reveal">Growth System</span>
+                    <h1 class="page-title reveal">Patient Acquisition <span class="text-gradient">Funnel</span></h1>
+                    <p class="page-subtitle reveal">A systematic, measurable process that turns
+                        online searches into booked appointments.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="funnel-visual reveal">
+                        <div class="funnel-stage">
+                            <div class="funnel-bar funnel-bar-1">
+                                <div class="funnel-bar-content">
+                                    <i class="fas fa-search"></i>
+                                    <div>
+                                        <h3>Awareness</h3>
+                                        <p>Patients discover you through Google search, social
+                                            media, or referrals</p>
+                                    </div>
+                                    <span class="funnel-metric">10,000+ impressions</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="funnel-stage">
+                            <div class="funnel-bar funnel-bar-2">
+                                <div class="funnel-bar-content">
+                                    <i class="fas fa-mouse-pointer"></i>
+                                    <div>
+                                        <h3>Interest</h3>
+                                        <p>Patients click through to your website or Google
+                                            profile</p>
+                                    </div>
+                                    <span class="funnel-metric">2,000+ clicks</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="funnel-stage">
+                            <div class="funnel-bar funnel-bar-3">
+                                <div class="funnel-bar-content">
+                                    <i class="fas fa-eye"></i>
+                                    <div>
+                                        <h3>Consideration</h3>
+                                        <p>Patients read about your credentials, reviews, and
+                                            services</p>
+                                    </div>
+                                    <span class="funnel-metric">800+ engaged</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="funnel-stage">
+                            <div class="funnel-bar funnel-bar-4">
+                                <div class="funnel-bar-content">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <div>
+                                        <h3>Action</h3>
+                                        <p>Patients call, WhatsApp, or book an appointment
+                                            online</p>
+                                    </div>
+                                    <span class="funnel-metric">200+ inquiries</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="funnel-stage">
+                            <div class="funnel-bar funnel-bar-5">
+                                <div class="funnel-bar-content">
+                                    <i class="fas fa-calendar-check"></i>
+                                    <div>
+                                        <h3>Conversion</h3>
+                                        <p>Patients visit your clinic — new patient acquired</p>
+                                    </div>
+                                    <span class="funnel-metric">100+ patients</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="growth-services reveal">
+                        <h2 class="section-title-sm">Growth Services Included</h2>
+                        <div class="growth-services-grid">
+                            <div class="growth-svc-card">
+                                <i class="fab fa-google"></i>
+                                <h3>Google Business Profile</h3>
+                                <p>Complete setup and optimization of your Google Business
+                                    Profile with photos, services, hours, and posts.</p>
+                            </div>
+                            <div class="growth-svc-card">
+                                <i class="fas fa-map-pin"></i>
+                                <h3>Local SEO</h3>
+                                <p>Optimize your online presence for location-based searches so
+                                    patients in your area find you first.</p>
+                            </div>
+                            <div class="growth-svc-card">
+                                <i class="fas fa-star"></i>
+                                <h3>Review Management</h3>
+                                <p>Systematic approach to generating, monitoring, and responding
+                                    to patient reviews across platforms.</p>
+                            </div>
+                            <div class="growth-svc-card">
+                                <i class="fas fa-ad"></i>
+                                <h3>Google & Meta Ads</h3>
+                                <p>Targeted advertising campaigns that put your practice in
+                                    front of high-intent patients in your city.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: WHY US ==================== -->
+        <section id="why-us" class="page-section">
+            <div class="page-hero page-hero-sm">
+                <div class="container">
+                    <span class="page-badge reveal">Why Choose Us</span>
+                    <h1 class="page-title reveal">Why Doctors Trust <span class="text-gradient">SparkMediaX</span></h1>
+                    <p class="page-subtitle reveal">We're not a generalist agency. We're healthcare digital specialists.
+                        That difference matters.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="whyus-comparison reveal">
+                        <div class="whyus-col whyus-generic">
+                            <h3>Generic Agencies</h3>
+                            <ul class="whyus-list">
+                                <li class="whyus-no"><i class="fas fa-times"></i> Work with all industries</li>
+                                <li class="whyus-no"><i class="fas fa-times"></i> Use generic templates</li>
+                                <li class="whyus-no"><i class="fas fa-times"></i> Don't understand healthcare</li>
+                                <li class="whyus-no"><i class="fas fa-times"></i> Slow turnaround (weeks)</li>
+                                <li class="whyus-no"><i class="fas fa-times"></i> Hidden costs & upsells</li>
+                                <li class="whyus-no"><i class="fas fa-times"></i> No post-delivery support</li>
+                                <li class="whyus-no"><i class="fas fa-times"></i> One-size-fits-all approach</li>
+                            </ul>
+                        </div>
+                        <div class="whyus-col whyus-spark">
+                            <div class="whyus-badge">SparkMediaX</div>
+                            <ul class="whyus-list">
+                                <li class="whyus-yes"><i class="fas fa-check"></i> 100% healthcare focused</li>
+                                <li class="whyus-yes"><i class="fas fa-check"></i> Custom designs from scratch</li>
+                                <li class="whyus-yes"><i class="fas fa-check"></i> Deep medical domain knowledge</li>
+                                <li class="whyus-yes"><i class="fas fa-check"></i> 7-day fast delivery</li>
+                                <li class="whyus-yes"><i class="fas fa-check"></i> Transparent, all-inclusive pricing
+                                </li>
+                                <li class="whyus-yes"><i class="fas fa-check"></i> Lifetime support included</li>
+                                <li class="whyus-yes"><i class="fas fa-check"></i> Tailored to your specialty</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="whyus-advantages reveal">
+                        <h2 class="section-title-sm">Our Unfair Advantages</h2>
+                        <div class="advantages-grid">
+                            <div class="advantage-card" data-delay="0">
+                                <div class="advantage-icon"><i class="fas fa-shield-alt"></i></div>
+                                <h3>Trust & Reliability</h3>
+                                <p>150+ doctors have trusted us with their digital identity. Our retention rate of 98%
+                                    speaks for itself.</p>
+                            </div>
+                            <div class="advantage-card" data-delay="100">
+                                <div class="advantage-icon"><i class="fas fa-rocket"></i></div>
+                                <h3>Speed & Agility</h3>
+                                <p>We deliver complete websites in 7 days. Social media calendars are ready before the
+                                    month starts. No delays.</p>
+                            </div>
+                            <div class="advantage-card" data-delay="200">
+                                <div class="advantage-icon"><i class="fas fa-rupee-sign"></i></div>
+                                <h3>Affordable Premium</h3>
+                                <p>Agency-quality work at freelancer prices. We've optimized our process to deliver
+                                    premium results without premium costs.</p>
+                            </div>
+                            <div class="advantage-card" data-delay="300">
+                                <div class="advantage-icon"><i class="fas fa-headset"></i></div>
+                                <h3>Dedicated Support</h3>
+                                <p>Direct WhatsApp access to your dedicated account manager. No tickets, no wait times.
+                                    Just fast, personal support.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: PROCESS ==================== -->
+        <section id="process" class="page-section">
+            <div class="page-hero page-hero-sm">
+                <div class="container">
+                    <span class="page-badge reveal">Our Process</span>
+                    <h1 class="page-title reveal">From Consultation to <span class="text-gradient">Launch in 4
+                            Steps</span></h1>
+                    <p class="page-subtitle reveal">A streamlined, transparent process designed for busy doctors who
+                        want results without the hassle.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="process-timeline">
+                        <div class="process-step reveal" data-delay="0">
+                            <div class="process-step-number">01</div>
+                            <div class="process-step-visual">
+                                <div class="psv-icon"><i class="fas fa-comments"></i></div>
+                            </div>
+                            <div class="process-step-content">
+                                <h3>Discovery & Consultation</h3>
+                                <p>We start with a free 30-minute consultation to understand your specialty, target
+                                    patients, current digital presence, competition, and goals. This helps us create a
+                                    tailored strategy.</p>
+                                <div class="process-step-details">
+                                    <span><i class="fas fa-clock"></i> 30 minutes</span>
+                                    <span><i class="fas fa-video"></i> Video/Phone call</span>
+                                    <span><i class="fas fa-file-alt"></i> Free strategy brief</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="process-step reveal" data-delay="200">
+                            <div class="process-step-number">02</div>
+                            <div class="process-step-visual">
+                                <div class="psv-icon"><i class="fas fa-pencil-ruler"></i></div>
+                            </div>
+                            <div class="process-step-content">
+                                <h3>Design & Strategy</h3>
+                                <p>Our creative team designs your website mockups, brand elements, social media
+                                    templates, and content strategy. You review everything and provide feedback before
+                                    we build.</p>
+                                <div class="process-step-details">
+                                    <span><i class="fas fa-clock"></i> 2-3 days</span>
+                                    <span><i class="fas fa-palette"></i> Custom designs</span>
+                                    <span><i class="fas fa-redo"></i> Unlimited revisions</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="process-step reveal" data-delay="400">
+                            <div class="process-step-number">03</div>
+                            <div class="process-step-visual">
+                                <div class="psv-icon"><i class="fas fa-code"></i></div>
+                            </div>
+                            <div class="process-step-content">
+                                <h3>Development & Creation</h3>
+                                <p>Approved designs are brought to life — website coding, social media account setup,
+                                    digital card creation, and Google profile optimization. All done in parallel for
+                                    speed.</p>
+                                <div class="process-step-details">
+                                    <span><i class="fas fa-clock"></i> 3-4 days</span>
+                                    <span><i class="fas fa-laptop-code"></i> Full development</span>
+                                    <span><i class="fas fa-mobile-alt"></i> Mobile testing</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="process-step reveal" data-delay="600">
+                            <div class="process-step-number">04</div>
+                            <div class="process-step-visual">
+                                <div class="psv-icon"><i class="fas fa-rocket"></i></div>
+                            </div>
+                            <div class="process-step-content">
+                                <h3>Launch & Ongoing Support</h3>
+                                <p>Everything goes live after your final approval. We provide a handover session,
+                                    training if needed, and ongoing support. Your growth journey begins here.</p>
+                                <div class="process-step-details">
+                                    <span><i class="fas fa-clock"></i> Day 7</span>
+                                    <span><i class="fas fa-check-circle"></i> Final approval</span>
+                                    <span><i class="fas fa-headset"></i> Lifetime support</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="process-guarantee reveal">
+                        <div class="guarantee-icon"><i class="fas fa-certificate"></i></div>
+                        <div class="guarantee-content">
+                            <h3>Our 7-Day Delivery Guarantee</h3>
+                            <p>We commit to delivering your complete digital ecosystem within 7 working days from design
+                                approval. If we're late, you get an additional month of social media management free.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: PACKAGES ==================== -->
+        <section id="packages" class="page-section">
+            <div class="page-hero page-hero-sm">
+                <div class="container">
+                    <span class="page-badge reveal">Pricing</span>
+                    <h1 class="page-title reveal">Transparent, <span class="text-gradient">All-Inclusive Packages</span>
+                    </h1>
+                    <p class="page-subtitle reveal">No hidden fees. No surprises. Choose the plan that fits your
+                        practice and scale as you grow.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="pricing-toggle reveal">
+                        <span class="toggle-label active" data-period="one-time">One-Time</span>
+                        <button class="pricing-toggle-btn" id="pricing-toggle" aria-label="Toggle pricing">
+                            <span class="toggle-knob"></span>
+                        </button>
+                        <span class="toggle-label" data-period="monthly">Monthly</span>
+                    </div>
+                    <div class="pricing-grid">
+                        <div class="pricing-card reveal" data-delay="0">
+                            <div class="pricing-card-header">
+                                <span class="pricing-tier">Starter</span>
+                                <h2 class="pricing-amount">
+                                    <span class="pricing-currency">₹</span>
+                                    <span class="pricing-value" data-one-time="9,999" data-monthly="2,999">9,999</span>
+                                </h2>
+                                <span class="pricing-period pricing-period-one-time">One-time</span>
+                                <span class="pricing-period pricing-period-monthly">/month</span>
+                                <p class="pricing-desc">Perfect for doctors just getting started online</p>
+                            </div>
+                            <div class="pricing-card-body">
+                                <ul class="pricing-features">
+                                    <li class="included"><i class="fas fa-check"></i> 5-page responsive website</li>
+                                    <li class="included"><i class="fas fa-check"></i> Mobile-optimized design</li>
+                                    <li class="included"><i class="fas fa-check"></i> Basic SEO setup</li>
+                                    <li class="included"><i class="fas fa-check"></i> Contact form integration</li>
+                                    <li class="included"><i class="fas fa-check"></i> SSL certificate</li>
+                                    <li class="included"><i class="fas fa-check"></i> 1 month free support</li>
+                                    <li class="excluded"><i class="fas fa-times"></i> Digital business card</li>
+                                    <li class="excluded"><i class="fas fa-times"></i> Social media management</li>
+                                    <li class="excluded"><i class="fas fa-times"></i> Google Business Profile</li>
+                                    <li class="excluded"><i class="fas fa-times"></i> Appointment booking system</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-card-footer">
+                                <button class="btn btn-outline btn-full" onclick="openAppointmentModal('Starter')">
+                                    <span>Get Started</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="pricing-card pricing-featured reveal" data-delay="100">
+                            <div class="pricing-popular-tag">Most Popular</div>
+                            <div class="pricing-card-header">
+                                <span class="pricing-tier">Professional</span>
+                                <h2 class="pricing-amount">
+                                    <span class="pricing-currency">₹</span>
+                                    <span class="pricing-value" data-one-time="24,999"
+                                        data-monthly="6,999">24,999</span>
+                                </h2>
+                                <span class="pricing-period pricing-period-one-time">One-time</span>
+                                <span class="pricing-period pricing-period-monthly">/month</span>
+                                <p class="pricing-desc">Complete digital presence for growing practices</p>
+                            </div>
+                            <div class="pricing-card-body">
+                                <ul class="pricing-features">
+                                    <li class="included"><i class="fas fa-check"></i> 10-page premium website</li>
+                                    <li class="included"><i class="fas fa-check"></i> Advanced SEO optimization</li>
+                                    <li class="included"><i class="fas fa-check"></i> Appointment booking system</li>
+                                    <li class="included"><i class="fas fa-check"></i> Digital business card (QR+NFC)
+                                    </li>
+                                    <li class="included"><i class="fas fa-check"></i> Google Business Profile setup</li>
+                                    <li class="included"><i class="fas fa-check"></i> 8 social media posts/month</li>
+                                    <li class="included"><i class="fas fa-check"></i> Patient testimonial section</li>
+                                    <li class="included"><i class="fas fa-check"></i> WhatsApp integration</li>
+                                    <li class="included"><i class="fas fa-check"></i> 3 months free support</li>
+                                    <li class="excluded"><i class="fas fa-times"></i> Paid advertising management</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-card-footer">
+                                <button class="btn btn-primary btn-full" onclick="openAppointmentModal('Professional')">
+                                    <span>Get Started</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="pricing-card reveal" data-delay="200">
+                            <div class="pricing-card-header">
+                                <span class="pricing-tier">Premium</span>
+                                <h2 class="pricing-amount">
+                                    <span class="pricing-currency">₹</span>
+                                    <span class="pricing-value" data-one-time="49,999"
+                                        data-monthly="14,999">49,999</span>
+                                </h2>
+                                <span class="pricing-period pricing-period-one-time">One-time</span>
+                                <span class="pricing-period pricing-period-monthly">/month</span>
+                                <p class="pricing-desc">Full-scale digital ecosystem for market leaders</p>
+                            </div>
+                            <div class="pricing-card-body">
+                                <ul class="pricing-features">
+                                    <li class="included"><i class="fas fa-check"></i> Unlimited page website</li>
+                                    <li class="included"><i class="fas fa-check"></i> Custom UI/UX design</li>
+                                    <li class="included"><i class="fas fa-check"></i> Advanced appointment system</li>
+                                    <li class="included"><i class="fas fa-check"></i> Digital business card + analytics
+                                    </li>
+                                    <li class="included"><i class="fas fa-check"></i> Full Google Business optimization
+                                    </li>
+                                    <li class="included"><i class="fas fa-check"></i> 16 social media posts/month</li>
+                                    <li class="included"><i class="fas fa-check"></i> 4 Reels/Shorts per month</li>
+                                    <li class="included"><i class="fas fa-check"></i> Google & Meta ads management</li>
+                                    <li class="included"><i class="fas fa-check"></i> Monthly analytics report</li>
+                                    <li class="included"><i class="fas fa-check"></i> Lifetime priority support</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-card-footer">
+                                <button class="btn btn-outline btn-full" onclick="openAppointmentModal('Premium')">
+                                    <span>Get Started</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricing-note reveal">
+                        <p><i class="fas fa-info-circle"></i> All prices are inclusive of taxes. Hosting and domain
+                            charges are separate and will be communicated upfront. Custom packages available for
+                            hospitals and multi-location clinics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: CONTACT ==================== -->
+        <section id="contact" class="page-section">
+            <div class="page-hero page-hero-sm">
+                <div class="container">
+                    <span class="page-badge reveal">Get In Touch</span>
+                    <h1 class="page-title reveal">Let's Build Your <span class="text-gradient">Digital Presence</span>
+                    </h1>
+                    <p class="page-subtitle reveal">Book a free consultation and discover how SparkMediaX can transform
+                        your practice.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="contact-grid">
+                        <div class="contact-info reveal">
+                            <h2>Start Your Digital Transformation Today</h2>
+                            <p>Fill in the form or reach out directly. Our team typically responds within 2 hours during
+                                business hours.</p>
+                            <div class="contact-methods">
+                                <div class="contact-method">
+                                    <div class="cm-icon"><i class="fab fa-whatsapp"></i></div>
+                                    <div>
+                                        <span class="cm-label">WhatsApp</span>
+                                        <a href="https://wa.me/919531649590" target="_blank" class="cm-value">+91 95316
+                                            49590</a>
+                                    </div>
+                                </div>
+                                <div class="contact-method">
+                                    <div class="cm-icon"><i class="fas fa-phone-alt"></i></div>
+                                    <div>
+                                        <span class="cm-label">Phone</span>
+                                        <a href="tel:+919531649590" class="cm-value">+91 95316 49590</a>
+                                    </div>
+                                </div>
+                                <div class="contact-method">
+                                    <div class="cm-icon"><i class="fas fa-envelope"></i></div>
+                                    <div>
+                                        <span class="cm-label">Email</span>
+                                        <a href="mailto:hello@sparkmediax.com"
+                                            class="cm-value">hello@sparkmediax.com</a>
+                                    </div>
+                                </div>
+                                <div class="contact-method">
+                                    <div class="cm-icon"><i class="fas fa-clock"></i></div>
+                                    <div>
+                                        <span class="cm-label">Business Hours</span>
+                                        <span class="cm-value">Mon - Sat, 10AM - 7PM IST</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-social-row">
+                                <a href="#" class="contact-social-link" aria-label="Instagram"><i
+                                        class="fab fa-instagram"></i></a>
+                                <a href="#" class="contact-social-link" aria-label="Facebook"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="contact-social-link" aria-label="LinkedIn"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="contact-social-link" aria-label="Twitter"><i
+                                        class="fab fa-x-twitter"></i></a>
+                                <a href="#" class="contact-social-link" aria-label="YouTube"><i
+                                        class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="contact-form-wrapper reveal">
+                            <form id="contact-form" class="contact-form">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="cf-name">Full Name *</label>
+                                        <input type="text" id="cf-name" name="name" placeholder="Dr. Your Name"
+                                            required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="cf-specialty">Specialty *</label>
+                                        <select id="cf-specialty" name="specialty" required>
+                                            <option value="" disabled selected>Select your specialty</option>
+                                            <option value="General Physician">General Physician</option>
+                                            <option value="Dentist">Dentist</option>
+                                            <option value="Dermatologist">Dermatologist</option>
+                                            <option value="Cardiologist">Cardiologist</option>
+                                            <option value="Orthopedic">Orthopedic</option>
+                                            <option value="Gynecologist">Gynecologist</option>
+                                            <option value="Pediatrician">Pediatrician</option>
+                                            <option value="Ophthalmologist">Ophthalmologist</option>
+                                            <option value="ENT Specialist">ENT Specialist</option>
+                                            <option value="Psychiatrist">Psychiatrist</option>
+                                            <option value="Urologist">Urologist</option>
+                                            <option value="Neurologist">Neurologist</option>
+                                            <option value="Gastroenterologist">Gastroenterologist</option>
+                                            <option value="Pulmonologist">Pulmonologist</option>
+                                            <option value="Endocrinologist">Endocrinologist</option>
+                                            <option value="Oncologist">Oncologist</option>
+                                            <option value="Plastic Surgeon">Plastic Surgeon</option>
+                                            <option value="Cosmetologist">Cosmetologist</option>
+                                            <option value="Ayurvedic Doctor">Ayurvedic Doctor</option>
+                                            <option value="Homeopathic Doctor">Homeopathic Doctor</option>
+                                            <option value="Physiotherapist">Physiotherapist</option>
+                                            <option value="Dietitian">Dietitian</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="cf-phone">Phone / WhatsApp *</label>
+                                        <input type="tel" id="cf-phone" name="phone" placeholder="+91 XXXXX XXXXX"
+                                            required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="cf-email">Email</label>
+                                        <input type="email" id="cf-email" name="email" placeholder="your@email.com">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="cf-city">City *</label>
+                                        <input type="text" id="cf-city" name="city" placeholder="Your city" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="cf-package">Interested Package</label>
+                                        <select id="cf-package" name="package">
+                                            <option value="" disabled selected>Select a package</option>
+                                            <option value="Starter - ₹9,999">Starter — ₹9,999</option>
+                                            <option value="Professional - ₹24,999">Professional — ₹24,999</option>
+                                            <option value="Premium - ₹49,999">Premium — ₹49,999</option>
+                                            <option value="Custom / Not Sure">Custom / Not Sure</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="cf-message">Tell us about your practice</label>
+                                    <textarea id="cf-message" name="message" rows="4"
+                                        placeholder="Brief description of your practice, current online presence, and what you're looking for..."></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-full btn-submit">
+                                    <span>Send via WhatsApp</span>
+                                    <i class="fab fa-whatsapp"></i>
+                                </button>
+                                <p class="form-disclaimer">By submitting, you agree to our Privacy Policy. Your data is
+                                    sent directly to our WhatsApp and is never stored on this website.</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: PRIVACY POLICY ==================== -->
+        <section id="privacy-policy" class="page-section">
+            <div class="page-hero page-hero-sm page-hero-dark">
+                <div class="container">
+                    <span class="page-badge reveal">Legal</span>
+                    <h1 class="page-title reveal">Privacy Policy</h1>
+                    <p class="page-subtitle reveal">Last updated: January 2025</p>
+                </div>
+            </div>
+            <div class="section legal-section">
+                <div class="container">
+                    <div class="legal-content">
+                        <div class="legal-block reveal">
+                            <h2>1. Introduction</h2>
+                            <p>SparkMediaX ("we", "us", "our") is committed to protecting the privacy of our clients,
+                                website visitors, and all individuals whose personal information we collect. This
+                                Privacy Policy explains how we collect, use, disclose, and safeguard your information
+                                when you visit our website sparkmediax.com or engage our services.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>2. Information We Collect</h2>
+                            <h3>2.1 Personal Information</h3>
+                            <p>When you fill out our contact form, book a demo, or engage our services, we may collect:
+                                full name, phone number, email address, city, medical specialty, practice details, and
+                                any other information you voluntarily provide.</p>
+                            <h3>2.2 Automatically Collected Information</h3>
+                            <p>We may automatically collect certain information when you visit our website, including:
+                                IP address, browser type, operating system, pages visited, time spent on pages,
+                                referring URL, and device information.</p>
+                            <h3>2.3 Information We Do NOT Collect</h3>
+                            <p>We do not collect, store, or process any patient medical records, health data, or
+                                protected health information (PHI). Our services are marketing-focused and we do not
+                                handle clinical data.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>3. How We Use Your Information</h2>
+                            <p>We use the information we collect to: respond to your inquiries, provide and manage our
+                                services, send you relevant updates about your project, improve our website and
+                                services, communicate promotional offers (with your consent), and comply with legal
+                                obligations.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>4. Data Sharing</h2>
+                            <p>We do not sell, trade, or rent your personal information to third parties. We may share
+                                your information with: trusted service providers who assist in operating our website and
+                                business (hosting, analytics), legal authorities when required by law, and business
+                                partners only with your explicit consent.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>5. Data Security</h2>
+                            <p>We implement appropriate technical and organizational security measures to protect your
+                                personal information. However, no method of transmission over the Internet is 100%
+                                secure, and we cannot guarantee absolute security.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>6. WhatsApp Data Handling</h2>
+                            <p>When you submit our contact form, the data is formatted and sent via WhatsApp to our
+                                team. This data passes through WhatsApp's servers and is subject to WhatsApp's privacy
+                                policy. We do not store form submissions on our servers.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>7. Your Rights</h2>
+                            <p>You have the right to: access your personal information we hold, request correction of
+                                inaccurate data, request deletion of your data, withdraw consent for marketing
+                                communications, and lodge a complaint with a supervisory authority.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>8. Contact Us</h2>
+                            <p>For any privacy-related inquiries, contact us at: <a
+                                    href="mailto:hello@sparkmediax.com">hello@sparkmediax.com</a> or WhatsApp: <a
+                                    href="https://wa.me/919531649590">+91 95316 49590</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: TERMS OF SERVICE ==================== -->
+        <section id="terms" class="page-section">
+            <div class="page-hero page-hero-sm page-hero-dark">
+                <div class="container">
+                    <span class="page-badge reveal">Legal</span>
+                    <h1 class="page-title reveal">Terms of Service</h1>
+                    <p class="page-subtitle reveal">Last updated: January 2025</p>
+                </div>
+            </div>
+            <div class="section legal-section">
+                <div class="container">
+                    <div class="legal-content">
+                        <div class="legal-block reveal">
+                            <h2>1. Agreement to Terms</h2>
+                            <p>By accessing and using the SparkMediaX website and services, you agree to be bound by
+                                these Terms of Service. If you do not agree, please do not use our services.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>2. Services Description</h2>
+                            <p>SparkMediaX provides digital marketing services including but not limited to: website
+                                development, social media management, digital business card creation, Google Business
+                                Profile optimization, SEO services, and paid advertising management — specifically for
+                                healthcare professionals.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>3. Project Process</h2>
+                            <p>Projects begin after confirmation of requirements and receipt of payment (or agreed
+                                payment schedule). We follow our standard 4-step process: Consultation, Design,
+                                Development, and Launch. Timelines are estimates and may vary based on client feedback
+                                speed.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>4. Client Responsibilities</h2>
+                            <p>The client is responsible for: providing accurate information and content, responding to
+                                review requests within 48 hours, ensuring they have rights to any content (photos,
+                                logos) provided to us, and maintaining their domain and hosting if self-managed.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>5. Revisions</h2>
+                            <p>We offer unlimited revisions during the design phase. However, revisions that
+                                fundamentally change the scope of the project may require additional charges and
+                                timeline adjustments, which will be communicated before proceeding.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>6. Intellectual Property</h2>
+                            <p>Upon full payment, the client receives ownership of the final website design and content
+                                created specifically for them. SparkMediaX retains the right to use the project in our
+                                portfolio (with client permission) and retains ownership of our proprietary tools,
+                                frameworks, and processes.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>7. Payment Terms</h2>
+                            <p>Payment is due as per the agreed schedule. For one-time projects, 50% is due at project
+                                start and 50% before launch. For monthly services, payment is due at the beginning of
+                                each month. Late payments may result in service suspension.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>8. Limitation of Liability</h2>
+                            <p>SparkMediaX is not liable for: indirect, incidental, or consequential damages, loss of
+                                data, website downtime due to hosting issues beyond our control, or any results from
+                                third-party platforms (Google, Meta, etc.) changing their algorithms or policies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: REFUND POLICY ==================== -->
+        <section id="refund-policy" class="page-section">
+            <div class="page-hero page-hero-sm page-hero-dark">
+                <div class="container">
+                    <span class="page-badge reveal">Legal</span>
+                    <h1 class="page-title reveal">Refund Policy</h1>
+                    <p class="page-subtitle reveal">Last updated: January 2025</p>
+                </div>
+            </div>
+            <div class="section legal-section">
+                <div class="container">
+                    <div class="legal-content">
+                        <div class="legal-block reveal">
+                            <h2>1. Our Commitment</h2>
+                            <p>We strive for 100% client satisfaction. If you're not happy with our work, we want to
+                                know and we'll work to make it right through revisions and adjustments before
+                                considering refunds.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>2. Refund Eligibility</h2>
+                            <p>Refund requests must be made within 7 days of payment if work has not yet begun. Once the
+                                design phase has started, refunds are evaluated on a case-by-case basis considering the
+                                work completed. No refunds are available after the project has been launched.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>3. Partial Refunds</h2>
+                            <p>If a project is cancelled mid-way, a partial refund may be issued after deducting the
+                                cost of work completed. The amount will be determined based on the project stage and
+                                deliverables already provided.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>4. Monthly Services</h2>
+                            <p>For monthly services (social media, ads management), cancellation can be done at the end
+                                of any month with 15 days written notice. No partial month refunds are provided.
+                                Services already rendered for the current month are non-refundable.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>5. Non-Refundable Items</h2>
+                            <p>Domain registration fees, third-party tool subscriptions, stock photo licenses, and
+                                hosting charges paid on your behalf are non-refundable as these are direct costs from
+                                third-party providers.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>6. How to Request</h2>
+                            <p>To request a refund, email us at <a
+                                    href="mailto:hello@sparkmediax.com">hello@sparkmediax.com</a> with your project
+                                details and reason for the request. We will respond within 3 business days.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PAGE: COOKIE POLICY ==================== -->
+        <section id="cookie-policy" class="page-section">
+            <div class="page-hero page-hero-sm page-hero-dark">
+                <div class="container">
+                    <span class="page-badge reveal">Legal</span>
+                    <h1 class="page-title reveal">Cookie Policy</h1>
+                    <p class="page-subtitle reveal">Last updated: January 2025</p>
+                </div>
+            </div>
+            <div class="section legal-section">
+                <div class="container">
+                    <div class="legal-content">
+                        <div class="legal-block reveal">
+                            <h2>1. What Are Cookies</h2>
+                            <p>Cookies are small text files stored on your device when you visit a website. They help
+                                the website remember your preferences and improve your browsing experience.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>2. Cookies We Use</h2>
+                            <h3>Essential Cookies</h3>
+                            <p>These are necessary for the website to function properly, including SPA navigation state
+                                and form session data. They cannot be disabled.</p>
+                            <h3>Analytics Cookies</h3>
+                            <p>We may use analytics tools to understand how visitors interact with our website. This
+                                helps us improve our content and user experience. All analytics data is anonymized.</p>
+                            <h3>Functional Cookies</h3>
+                            <p>These remember your preferences (like theme settings) to provide a more personalized
+                                experience.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>3. Third-Party Cookies</h2>
+                            <p>Our website may contain links to third-party websites (WhatsApp, Google, social media
+                                platforms). These websites have their own cookie policies, and we are not responsible
+                                for their practices.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>4. Managing Cookies</h2>
+                            <p>You can control and manage cookies through your browser settings. Disabling certain
+                                cookies may affect the functionality of our website. For more information, visit your
+                                browser's help documentation.</p>
+                        </div>
+                        <div class="legal-block reveal">
+                            <h2>5. Updates to This Policy</h2>
+                            <p>We may update this Cookie Policy from time to time. Any changes will be posted on this
+                                page with an updated revision date.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo" data-route="home">
+                        <span class="logo-spark">Spark</span><span class="logo-media">MediaX</span>
+                    </a>
+                    <p>India's premier digital marketing agency exclusively for doctors and healthcare professionals.
+                        Building trust, growing practices.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Services</h4>
+                    <a href="#web-development" data-route="web-development">Website Development</a>
+                    <a href="#digital-card" data-route="digital-card">Digital Business Card</a>
+                    <a href="#social-media" data-route="social-media">Social Media Branding</a>
+                    <a href="#growth-system" data-route="growth-system">Growth System</a>
+                    <a href="#packages" data-route="packages">Packages & Pricing</a>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Company</h4>
+                    <a href="#about" data-route="about">About Us</a>
+                    <a href="#process" data-route="process">Our Process</a>
+                    <a href="#why-us" data-route="why-us">Why Choose Us</a>
+                    <a href="#patient-journey" data-route="patient-journey">Patient Journey</a>
+                    <a href="#contact" data-route="contact">Contact</a>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Legal</h4>
+                    <a href="#privacy-policy" data-route="privacy-policy">Privacy Policy</a>
+                    <a href="#terms" data-route="terms">Terms of Service</a>
+                    <a href="#refund-policy" data-route="refund-policy">Refund Policy</a>
+                    <a href="#cookie-policy" data-route="cookie-policy">Cookie Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SparkMediaX. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart" style="color: #1E5EFF;"></i> for India's healthcare heroes</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <div id="floating-buttons">
+        <button class="float-btn float-whatsapp" id="float-whatsapp" aria-label="Chat on WhatsApp"
+            onclick="window.open('https://wa.me/919531649590', '_blank')">
+            <i class="fab fa-whatsapp"></i>
+            <span class="float-btn-tooltip">Chat with us</span>
+        </button>
+        <button class="float-btn float-appointment" id="float-appointment" aria-label="Book Appointment"
+            onclick="openAppointmentModal('')">
+            <i class="fas fa-calendar-plus"></i>
+            <span class="float-btn-tooltip">Book Demo</span>
+        </button>
+    </div>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Appointment Modal -->
+    <div id="appointment-modal" class="modal-overlay">
+        <div class="modal-container">
+            <button class="modal-close" id="modal-close" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h2>Book Your Free Demo</h2>
+                <p>Fill in the details below and we'll reach out within 2 hours</p>
+            </div>
+            <form id="appointment-form" class="modal-form">
+                <div class="form-group">
+                    <label for="af-name">Full Name *</label>
+                    <input type="text" id="af-name" name="name" placeholder="Dr. Your Name" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="af-specialty">Specialty *</label>
+                        <select id="af-specialty" name="specialty" required>
+                            <option value="" disabled selected>Select specialty</option>
+                            <option value="General Physician">General Physician</option>
+                            <option value="Dentist">Dentist</option>
+                            <option value="Dermatologist">Dermatologist</option>
+                            <option value="Cardiologist">Cardiologist</option>
+                            <option value="Orthopedic">Orthopedic</option>
+                            <option value="Gynecologist">Gynecologist</option>
+                            <option value="Pediatrician">Pediatrician</option>
+                            <option value="Ophthalmologist">Ophthalmologist</option>
+                            <option value="ENT Specialist">ENT Specialist</option>
+                            <option value="Psychiatrist">Psychiatrist</option>
+                            <option value="Urologist">Urologist</option>
+                            <option value="Neurologist">Neurologist</option>
+                            <option value="Gastroenterologist">Gastroenterologist</option>
+                            <option value="Pulmonologist">Pulmonologist</option>
+                            <option value="Endocrinologist">Endocrinologist</option>
+                            <option value="Oncologist">Oncologist</option>
+                            <option value="Plastic Surgeon">Plastic Surgeon</option>
+                            <option value="Cosmetologist">Cosmetologist</option>
+                            <option value="Ayurvedic Doctor">Ayurvedic Doctor</option>
+                            <option value="Homeopathic Doctor">Homeopathic Doctor</option>
+                            <option value="Physiotherapist">Physiotherapist</option>
+                            <option value="Dietitian">Dietitian</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="af-phone">WhatsApp Number *</label>
+                        <input type="tel" id="af-phone" name="phone" placeholder="+91 XXXXX XXXXX" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="af-email">Email</label>
+                        <input type="email" id="af-email" name="email" placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="af-city">City *</label>
+                        <input type="text" id="af-city" name="city" placeholder="Your city" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="af-package">Interested Package</label>
+                        <select id="af-package" name="package">
+                            <option value="" disabled selected>Select package</option>
+                            <option value="Starter - ₹9,999">Starter — ₹9,999</option>
+                            <option value="Professional - ₹24,999">Professional — ₹24,999</option>
+                            <option value="Premium - ₹49,999">Premium — ₹49,999</option>
+                            <option value="Custom / Not Sure">Custom / Not Sure</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="af-budget">Budget Range</label>
+                        <select id="af-budget" name="budget">
+                            <option value="" disabled selected>Select budget</option>
+                            <option value="Under ₹10,000">Under ₹10,000</option>
+                            <option value="₹10,000 - ₹25,000">₹10,000 - ₹25,000</option>
+                            <option value="₹25,000 - ₹50,000">₹25,000 - ₹50,000</option>
+                            <option value="₹50,000 - ₹1,00,000">₹50,000 - ₹1,00,000</option>
+                            <option value="Above ₹1,00,000">Above ₹1,00,000</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="af-date">Preferred Demo Date</label>
+                        <input type="date" id="af-date" name="date">
+                    </div>
+                    <div class="form-group">
+                        <label for="af-time">Preferred Time</label>
+                        <select id="af-time" name="time">
+                            <option value="" disabled selected>Select time</option>
+                            <option value="10:00 AM - 11:00 AM">10:00 AM - 11:00 AM</option>
+                            <option value="11:00 AM - 12:00 PM">11:00 AM - 12:00 PM</option>
+                            <option value="12:00 PM - 1:00 PM">12:00 PM - 1:00 PM</option>
+                            <option value="2:00 PM - 3:00 PM">2:00 PM - 3:00 PM</option>
+                            <option value="3:00 PM - 4:00 PM">3:00 PM - 4:00 PM</option>
+                            <option value="4:00 PM - 5:00 PM">4:00 PM - 5:00 PM</option>
+                            <option value="5:00 PM - 6:00 PM">5:00 PM - 6:00 PM</option>
+                            <option value="6:00 PM - 7:00 PM">6:00 PM - 7:00 PM</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="af-current">Current Online Presence</label>
+                    <select id="af-current" name="currentPresence">
+                        <option value="" disabled selected>Select current status</option>
+                        <option value="No website, no social media">No website, no social media</option>
+                        <option value="Have social media only">Have social media only</option>
+                        <option value="Have an outdated website">Have an outdated website</option>
+                        <option value="Have a website but no traffic">Have a website but no traffic</option>
+                        <option value="Have everything but want to improve">Have everything but want to improve</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="af-message">Additional Message</label>
+                    <textarea id="af-message" name="message" rows="3"
+                        placeholder="Anything specific you'd like to discuss..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full btn-submit">
+                    <span>Send via WhatsApp</span>
+                    <i class="fab fa-whatsapp"></i>
+                </button>
+                <p class="form-disclaimer">Your data is sent directly to our team via WhatsApp. No data is stored on
+                    this website.</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
